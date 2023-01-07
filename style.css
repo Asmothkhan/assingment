@@ -1,21 +1,127 @@
-*{
-    margin: 0;
+* {
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
-.header-banner{
+/* Bannner styles */
+
+.header-banner {
     background-image: url('./new-year-new-me/images/banner/banner1.png');
     height: 808px;
 }
-.banner-container{
-    text-align: right;
-    padding: 216px 210px 200px 845px;
-}
-.banner-title{
-  
-}
-.banner-description{
 
+.banner-container {
+    text-align: right;
+    padding: 216px 260px 24px 876px;
+
+
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    width: 525px;
+
+}
+
+.banner-description {
+
+
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.primary-btn {
+    color: white;
+    background-color:rgb(249, 82, 27);
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 10px;
+
+}
+/* Failure section styles */
+
+.my-failur{
+    display: flex;
+    margin: 156px 322px 104px 206px;
+    gap:84px;
+}
+
+ul{
+    list-style: none;
+}
+ul li:before {
+    content: '\2714\0020';
+    color: rgb(16, 185, 236);
+  }
+  .failure-item{
+   padding: 50px;
+   margin-top: 180px;
+  }
+  .failure-description {
+    color: #444343;
+  }
+  ul li{
+    color: #444343;
+    line-height: 30px;
+  }
+  .failure-title{
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .plans{
+    display: flex;
+    justify-content: center;
+    margin: 0 230px 130px 230px ;
+    justify-content: space-around;
+  }
+  .my-plans-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .plans-item{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .plans-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .plan-image{
+    margin-left: 40px;
+  }
+  /* Gardient styles */
+  .gardient-container{
+    margin: 130px 230px;
+  background-image: linear-gradient( to right, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('./new-year-new-me/images/watch.png');
+    width: 1140px;
+    height: 300px;
     
-}
-.primary-btn{
-  
-}
+
+  }
+  .gardient-title{
+    padding: 59px 617px 55px 64px;
+   
+  }
+  .gardient{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+
+  }
+  .gardient-btn{
+    padding: 20px 36px;
+    border: 0;
+    border-radius: 10px;
+    color:blue;
+    font-weight: bold;
+    margin-bottom: 59px;
+
+  }

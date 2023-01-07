@@ -5,7 +5,7 @@
 /* Bannner styles */
 
 .header-banner {
-    background-image: url('./new-year-new-me/images/banner/banner1.png');
+    background-image: url('./images/banner/banner1.png');
     height: 808px;
 }
 
@@ -100,7 +100,7 @@ ul li:before {
   /* Gardient styles */
   .gardient-container{
     margin: 130px 230px;
-  background-image: linear-gradient( to right, #a30388 0%, rgba(0, 95, 172, 0) 100%),url('./new-year-new-me/images/watch.png');
+  background-image: linear-gradient( to right, #a30388 0%, rgba(0, 95, 172, 0) 100%),url('./images/watch.png');
     width: 1140px;
     height: 300px;
     

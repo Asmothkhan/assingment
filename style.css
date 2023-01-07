@@ -65,7 +65,7 @@ ul li:before {
   }
   ul li{
     color: #444343;
-    line-height: 30px;
+    line-height: 35px;
   }
   .failure-title{
     font-size: 40px;
@@ -100,7 +100,7 @@ ul li:before {
   /* Gardient styles */
   .gardient-container{
     margin: 130px 230px;
-  background-image: linear-gradient( to right, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('./new-year-new-me/images/watch.png');
+  background-image: linear-gradient( to right, #a30388 0%, rgba(0, 95, 172, 0) 100%),url('./new-year-new-me/images/watch.png');
     width: 1140px;
     height: 300px;
     
@@ -125,3 +125,59 @@ ul li:before {
     margin-bottom: 59px;
 
   }
+  /* Footer section styles */
+  .footer-section{
+    background-color:#151414;;
+    gap: 330px;
+  }
+  .footer-container{
+    display: flex;
+  }
+  .footer-title{
+    color:white;
+  }
+  .footer-subscribe{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .footer-future{
+    padding: 130px 330px 130px 230px;
+    width: 485px;
+  }
+  .footer-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .footer-mail{
+    padding: 130px 230px 243px 0;
+  }
+  .footer-icon{
+    padding-right: 15px;
+
+  }
+  .footer-contract a{
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+  }
+  .footer-title{
+    font-size: 45px;
+    font-weight: 700;
+  }
+  input{
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+  }
+  .sub-btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 94, 255);
+    color: white;
+  }
+  
